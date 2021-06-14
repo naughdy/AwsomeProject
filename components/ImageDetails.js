@@ -9,9 +9,7 @@ const ImageDetails = (props) => {
       <Card.Title />
       <Card.Content>
         <Paragraph>{props.title}</Paragraph>
-        <Image
-          source={props.imagetoshow}
-          style={{width: 200, height: 200}}></Image>
+        <Image source={props.imagetoshow} style={{width: 200, height: 200}} />
       </Card.Content>
     </Card>
   );
