@@ -13,10 +13,10 @@ const Counter = () => {
       <Text style={Styles.textStyle}>This is an assignment</Text>
       <Text style={Styles.textStyle}>The variable is {number}</Text>
       <View style={Styles.viewStyle}>
-        <Button onPress={() => buttonPressed()} title="Increment"></Button>
+        <Button onPress={() => buttonPressed()} title="Increment" />
       </View>
       <View style={Styles.viewStyle}>
-        <Button onPress={() => buttonPressed2()} title="Decrement"></Button>
+        <Button onPress={() => buttonPressed2()} title="Decrement" />
       </View>
     </View>
   );

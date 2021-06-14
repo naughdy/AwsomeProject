@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
-import {View, Text} from 'react-native';
+import React from 'react';
+import {Text} from 'react-native';
 import {Button} from 'react-native-paper';
 
 const button = (props) => {
   return (
     <Button
-      onPress={()=>props.function(props.text)}
+      onPress={() => props.function(props.text)}
       style={{
         height: 100,
         width: props.type != undefined ? 200 : 100,

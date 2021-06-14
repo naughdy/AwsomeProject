@@ -1,5 +1,5 @@
 //import liraries
-import React, {Component} from 'react';
+import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
 // create a component
@@ -9,7 +9,7 @@ const MyComponent = (props) => {
       <Text style={[styles.text, {marginLeft: props.Button ? 100 : 0}]}>
         {props.title}
       </Text>
-      {props.Button && <props.Button></props.Button>}
+      {props.Button && <props.Button />}
     </View>
   );
 };
